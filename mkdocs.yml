@@ -1,0 +1,107 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Star Ethics 
+site_url: https://star-ethics.montaque-reynolds.com
+repo_url: https://github.com/Star-Ethics
+theme:
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      font: 
+        text: woff2
+      logo: assets/default.jpg
+  features:
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+
+    - media: "(prefers-color-scheme: light)"
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - primary: blue grey
+    - accent: cyan
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies: 
+      analytics:
+        name: Google Analytics
+        provider: google
+        property: G-2KYGL7D8N1
+        checked: false
+    copyright: >
+      Copyright &copy; 2016 - 2024 Montaque Reynolds – <a href="#__consent">Change cookie settings</a>
+  feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+plugins:
+  - search
+  - social
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - git-committers:
+      repository: Star-Ethics/star-ethics.github.io
+      branch: main
+  - git-authors
+  - blog
+  - tags:
+      tags_file: tags.md
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+      enabled: !ENV [CI, false]
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      comments_path: "#__comments"

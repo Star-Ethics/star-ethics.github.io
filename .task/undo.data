@@ -1,0 +1,21 @@
+time 1728602553
+new [description:"create_favicon" entry:"1728602553" modified:"1728602553" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"d21f35dd-d683-442b-930c-32c8b594fc09"]
+---
+time 1728603352
+new [description:"add section index pages" entry:"1728603352" modified:"1728603352" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"805df97e-839c-4102-8f0b-cb07dccc7e7a"]
+---
+time 1728603368
+old [description:"add section index pages" entry:"1728603352" modified:"1728603352" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"805df97e-839c-4102-8f0b-cb07dccc7e7a"]
+new [annotation_1728603368:"https:\/\/squidfunk.github.io\/mkdocs-material\/setup\/setting-up-navigation\/#sticky-navigation-tabs-with-sticky-tabs" description:"add section index pages" entry:"1728603352" modified:"1728603368" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"805df97e-839c-4102-8f0b-cb07dccc7e7a"]
+---
+time 1728603427
+old [annotation_1728603368:"https:\/\/squidfunk.github.io\/mkdocs-material\/setup\/setting-up-navigation\/#sticky-navigation-tabs-with-sticky-tabs" description:"add section index pages" entry:"1728603352" modified:"1728603368" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"805df97e-839c-4102-8f0b-cb07dccc7e7a"]
+new [annotation_1728603368:"https:\/\/squidfunk.github.io\/mkdocs-material\/setup\/setting-up-navigation\/#sticky-navigation-tabs-with-sticky-tabs" annotation_1728603427:"In order to link a page to a section, create a new document with the name index.md in the respective folder, and add it to the beginning of your navigation section:\n\nnav:\n  - Section:\n    - section\/index.md \n\n\n    - Page 1: section\/page-1.md\n    ...\n    - Page n: section\/page-n.md\n" description:"add section index pages" entry:"1728603352" modified:"1728603427" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"805df97e-839c-4102-8f0b-cb07dccc7e7a"]
+---
+time 1728604529
+new [description:"set social cards" entry:"1728604529" modified:"1728604529" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"a9ea874b-49b8-40bc-958d-fe2882bcc9f4"]
+---
+time 1728604545
+old [description:"set social cards" entry:"1728604529" modified:"1728604529" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"a9ea874b-49b8-40bc-958d-fe2882bcc9f4"]
+new [annotation_1728604545:"https:\/\/squidfunk.github.io\/mkdocs-material\/setup\/setting-up-social-cards\/" description:"set social cards" entry:"1728604529" modified:"1728604545" project:"star_ethics" status:"pending" tags:"@rnd" tags_@rnd:"x" uuid:"a9ea874b-49b8-40bc-958d-fe2882bcc9f4"]
+---
