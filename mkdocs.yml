@@ -4,6 +4,8 @@ site_url: https://star-ethics.montaque-reynolds.com
 repo_url: https://github.com/Star-Ethics
 theme:
   name: material
+  custom_dir: overrides
+  logo: assets/scu.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
